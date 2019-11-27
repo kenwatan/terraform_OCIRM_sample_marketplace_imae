@@ -6,3 +6,7 @@ variable.tf
 - vcn_cidr/public_subnet_cidr : VCN/SubnetのCIDR
 - ad : 可用性ドメイン（１～３）
 - headnode_shape : 作成するコンピュートインスタンスのシェイプ
+
+output.tf
+- HeadNodePublicIP : コンピュートパブリックIPアドレス
+- Private_key ： ssh 秘密鍵
